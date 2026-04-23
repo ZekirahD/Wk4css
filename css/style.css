@@ -1,0 +1,87 @@
+body {
+    background-image: url(lavender-clouds.jpg);
+    background-color: rgb(163, 126, 132);
+   
+    position: relative;
+}
+
+header {
+    background-color: lavenderblush;
+    max-width: 500px;
+}
+
+section {
+    background-color: lavenderblush;
+    max-width: 500px;
+}
+
+article {
+    background-color: lightpink;
+    max-width: 500px;
+}
+
+aside {
+    background-color: rgb(247, 157, 157);
+    max-width: 500  px;
+}
+
+div {
+    background-color: lightgoldenrodyellow;
+    max-width: 50%;
+}
+
+.colorbox {
+    padding-left: 5px;
+    margin-left: 50px;
+    display: block;
+    max-width: 1000px;
+}
+
+
+.boxy.square {
+    border: 2px solid  rgb(207, 69, 54);
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;  /*removes the bullets from the list*/
+    margin: 0;  /* removes default margin*/
+    padding: 0; /* removes default padding*/
+}
+li { 
+    display: inline;
+    /* makes the list items sit next to each other */
+}   /* float: left; */
+
+li a {
+    display: block; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #863636;
+}
+
+h2 {
+    color: hotpink;
+    margin: 10px 20px 0;
+}
+
+h2 {
+    text-decoration-color: hotpink;
+    margin: 10px 0 20px 20px;
+}
+
+h2 {
+    color: hotpink;
+    margin: 10px 20px 20px 0;
+}
+
+h2 {
+    color: hotpink;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
